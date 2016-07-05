@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- <meta name="viewport" content="width=600, initial-scale=1"> -->
+<title>Walker's Woodcraft</title>
+<link rel="icon" href="./pics/tabImage.png">
+<link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
+<!-- Responsive Web Design Breakpoints -->
+<!-- <link rel="stylesheet" type="text/css" href="/stylesheets/responsive-height700px.css" media="screen and (max-height: 700px)"> -->
+<!-- <link rel="stylesheet" type="text/css" href="/stylesheets/landscape.css" media="screen and (max-height: 500px)"> -->
+<!-- CSS Icons and Fonts -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<!-- CSS Framework -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+<!-- jquery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<!-- Angular -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular-animate.min.js"></script>
+<!-- Materialize JS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+</head>
+<body ng-controller="mainTroller">
+	<div class="opac"></div>
+	<!-- ideology Structure -->
+	<ul id="ideology" class="dropdown-content ">
+	  <li><a href="#!">my story</a></li>
+	  <li class="divider"></li>
+	  <li><a href="#!">craft</a></li>
+	</ul>
+		<!-- custom built Structure -->
+	<ul id="customBuilt" class="dropdown-content ">
+	  <li><a href="#!">joint work</a></li>
+	  <li class="divider"></li>
+	  <li><a href="#!">raw materials</a></li>
+	  <li><a href="#!">large installs</a></li>
+	</ul>
+		<!-- furniture Structure -->
+	<ul id="furniture" class="dropdown-content ">
+	  <li><a href="#!">gallery</a></li>
+	  <li class="divider"></li>
+	  <li><a href="#!">chairs</a></li>
+	  <li><a href="#!">tables</a></li>
+	  <li><a href="#!">book cases</a></li>
+	  <li><a href="#!">lamps</a></li>
+	  <li><a href="#!">fireplace mantles</a></li>
+	</ul>
+		<!-- events Structure -->
+	<ul id="events" class="dropdown-content ">
+	  <li><a href="#!">displays</a></li>
+	  <li class="divider"></li>
+	  <li><a href="#!">journal</a></li>
+	  <li class="divider"></li>
+	  <li><a href="#!">contact</a></li>
+	</ul>
+	<nav class="N/A transparent nav">
+	    <div class="nav-wrapper">
+		    <a href="#" class="brand-logo center">Walker's Woodcraft</a>
+		    <ul id="nav-mobile" class="left hide-on-med-and-down">
+		    	<li><a class="dropdown-button" href="#!" data-activates="ideology">Ideology</a></li>
+		    <ul id="nav-mobile" class="left hide-on-med-and-down">
+		    	<li><a class="dropdown-button" href="#!" data-activates="customBuilt">Custom Built</a></li>
+		    <ul id="nav-mobile" class="right hide-on-med-and-down">
+		    	<li><a class="dropdown-button" href="#!" data-activates="furniture">Furniture</a></li>
+		    <ul id="nav-mobile" class="right hide-on-med-and-down">
+		    	<li><a class="dropdown-button" href="#!" data-activates="events">Events</a></li>
+		    </ul>
+	    </div>
+    </nav>
+	<!-- Background video -->
+	<video class="video hide-on-small-only" autoplay muted loop>
+	  	<source src="./media/Open-Fire.mp4" type="video/mp4">
+	</video>
+<!-- 	<div class="left-align lp-header">
+		<h3>"90's cronut cold-pressed hella banjo, godard umami twee meggings waistcoat skateboard truffaut put a bird on it affogato squid. Gentrify cliche blog letterpress cardigan literally. Occupy before they sold out single-origin coffee whatever. Direct trade trust fund vinyl, typewriter seitan chambray narwhal brunch post-ironic fixie food truck."</h3>
+	</div> -->
+	<div class="center-align">
+		<div class="btn-grp-1">
+			<a class="waves-effect N/A transparent btn btn-custom" href="#"></i>Contact Me</a>
+		</div>
+		<div class="social-icons">
+			<a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+			<a href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+		</div>
+		<div class="contact-info">
+			<p>info@walkerswoodcraft.com</p>
+			<p>XXX-XXX-XXXX</p>
+		</div>
+	</div>
+</body>
+ <!-- My JS Files -->
+<script type="text/javascript" src="public/js/main.js"></script>
+<script type="text/javascript" src="public/js/wwApp.js"></script>
+<script type="text/javascript" src="public/js/wwApp.Troller.js"></script>
+</html>

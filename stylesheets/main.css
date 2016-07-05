@@ -1,0 +1,100 @@
+@font-face {
+    font-family: wood;
+    src: url(../fonts/raleway.ttf);
+}
+
+@font-face {
+    font-family: clear;
+    src: url(../fonts/PrintClearly.otf);
+}
+
+* {
+	font-family: clear;
+}
+
+/*For Nav*/
+.nav {
+	border-bottom: solid white 1px;
+	height: 100px;
+}
+
+.nav ul a {
+	font-size: 20px;
+	padding: 40px 177px;
+}
+
+.dropdown-content li>a {
+    font-size: 20px !important;
+    color: black !important;
+}
+
+.lp-header{
+	padding-top: 250px;
+}
+
+.brand-logo {
+	font-family: wood;
+	font-size: 25px;
+}
+
+.lp-header h3 {
+	color: white;
+	font-family: clear;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.social-icons {
+	padding-top: 10px;
+}
+
+.social-icons i {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.social-icons a {
+	color: white;
+}
+
+.contact-info {
+	color: white;
+}
+
+
+/*Button Layout*/
+.btn-grp-1 a {
+	color: white;
+	margin-top: 600px;
+	font-size: 20px;
+    border: solid white 1px;
+}
+
+
+/*FOR BACKGROUND*/
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: -2;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  	-webkit-filter: blur(10px);
+  	-moz-filter: blur(10px);
+  	-o-filter: blur(10px);
+  	-ms-filter: blur(10px);
+  	filter: blur(10px);
+}
+
+.opac {
+	position: fixed;
+	background-color: black;
+	z-index: -1;
+	opacity: .75;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+}
